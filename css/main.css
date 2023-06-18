@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, #ff000067, #54ff54);
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pokemons {
+  /* background-color: antiquewhite; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  width: max-content;
+  height: max-content;
+  /* border: 1px solid black; */
+  justify-items: center;
+}
+.box {
+  border: 1px solid white;
+  height: max-content;
+}
+.poke-card {
+  border: 1px solid white;
+  width: 215px;
+  height: 280px;
+  border-bottom: none;
+  text-align: center;
+}
+.nome-text {
+  width: 100%;
+}
+.box-tipo {
+  margin-top: 10px;
+}
+.box-nome{
+  border: 1px solid white;
+  background-color: cornflowerblue;
+  padding: 2px 0px;
+} 
+.grass {
+  background-color: #54ff54;
+}
+.fire {
+  background-color: orange;
+}
+.water {
+  background-color: blue;
+}
+.bug {
+  background-color: pink;
+}
+.poison {
+  background-color: blueviolet;
+}
+.electric {
+  background-color: yellow;
+}
+.ground {
+  background-color: rgb(80, 23, 23);
+}
+.fighting {
+  background-color: rgb(175, 42, 42);
+}
+.psychic {
+  background-color: cornflowerblue;
+}
+.ghost {
+  background-color: rgb(1, 33, 1);
+}
+.rock {
+  background-color: gray;
+}
+.ice {
+  background-color: aquamarine;
+}
+.dragon {
+  background-color: burlywood;
+}
+.normal {
+  background-color: beige;
+}
+.grass-text {
+    border: 1px solid white;
+    background-color: #54ff54;
+    border-radius: 10px;
+    padding: 5px;
+}
+.fire-text {
+  background-color: orange;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.water-text {
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.bug-text {
+  background-color: pink;
+
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.poison-text {
+  background-color: blueviolet;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.electric-text {
+  background-color: yellow;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.ground-text {
+  background-color: rgb(80, 23, 23);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.fighting-text {
+  background-color: rgb(175, 42, 42);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.psychic-text {
+  background-color: cornflowerblue;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.ghost-text {
+  background-color: rgb(1, 33, 1);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.rock-text {
+  background-color: gray;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.ice-text {
+  background-color: aquamarine;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.dragon-text {
+  background-color: burlywood;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.normal-text {
+  background-color: beige;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
